@@ -7,7 +7,7 @@
   </head>
   <body>
     <h1>Tic Tac Toe</h1>
-    <h2>Current Player: <span>1</span></h2>
+    <h2>Current Player: <span id='playerId'>1</span></h2>
 
     <table class="score">
       <thead>
@@ -18,8 +18,8 @@
       </thead>
       <tbody>
         <tr>
-          <td>0</td>
-          <td>0</td>
+          <td id='playerOne'>0</td>
+          <td id='playerTwo'>0</td>
         </tr>
       </tbody>
     </table>
@@ -27,19 +27,19 @@
     <table class="board">
       <tbody>
         <tr>
-          <td id='topLeft'></td>
-          <td id='topCenter'></td>
-          <td id='topRight'></td>
+          <td class='box' id='topLeft'></td>
+          <td class='box' id='topCenter'></td>
+          <td class='box' id='topRight'></td>
         </tr>
         <tr>
-          <td id='midLeft'></td>
-          <td id='midCenter'></td>
-          <td id='midRight'></td>
+          <td class='box' id='midLeft'></td>
+          <td class='box' id='midCenter'></td>
+          <td class='box' id='midRight'></td>
         </tr>
         <tr>
-          <td id='bottomLeft'></td>
-          <td id='bottomCenter'></td>
-          <td id='bottomRight'></td>
+          <td class='box' id='bottomLeft'></td>
+          <td class='box' id='bottomCenter'></td>
+          <td class='box' id='bottomRight'></td>
         </tr>
       </tbody>
     </table>
